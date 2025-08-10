@@ -1,4 +1,4 @@
-/* Google Fonts import */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
 :root {
@@ -267,7 +267,6 @@ p, li {
   margin-top: 60px;
 }
 
-/* Fade & slide-in animations */
 .fade-in {
   opacity: 0;
   transform: translateY(48px);
@@ -279,7 +278,7 @@ p, li {
   transform: translateY(0);
 }
 
-/* Responsive Design */
+
 @media (max-width: 1100px) {
   .grid-3 {
     grid-template-columns: 1fr 1fr;
