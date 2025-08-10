@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZSEL1 – Zespół Szkół Elektrycznych nr 1 w Krakowie</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-blur"></div>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">ZSEL1</h1>
+      <nav>
+        <ul>
+          <li><a href="#o-nas">O nas</a></li>
+          <li><a href="#oferta">Nasza oferta</a></li>
+          <li><a href="#dlaczego">Dlaczego warto?</a></li>
+          <li><a href="#rekrutacja">Jak dołączyć</a></li>
+        </ul>
+      </nav>
+      <a href="#rekrutacja" class="cta-btn">Dołącz do nas!</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="o-nas" class="section fade-in">
+      <div class="container grid-2">
+        <div>
+          <h2>O nas</h2>
+          <p>
+            Zespół Szkół Elektrycznych nr 1 w Krakowie to nowoczesna szkoła z bogatą historią edukacji technicznej. Od dziesięcioleci kształcimy przyszłych specjalistów branży elektrycznej i informatycznej, łącząc tradycję z innowacją. Nasze specjalizacje obejmują m.in. elektrotechnikę, elektronikę, mechatronikę oraz informatykę. Uczniowie zdobywają tutaj wiedzę teoretyczną i praktyczną, uczestnicząc w licznych projektach, konkursach i stażach.
+          </p>
+        </div>
+        <div class="img-card">
+          <img src="assets/szkola_budynek.jpg" alt="Budynek ZSEL1 w Krakowie">
+        </div>
+      </div>
+    </section>
+
+    <section id="oferta" class="section fade-in">
+      <div class="container">
+        <h2>Nasza oferta</h2>
+        <div class="grid-3">
+          <div class="card">
+            <img src="assets/klasa_laboratorium.jpg" alt="Nowoczesne laboratorium szkolne">
+            <h3>Kierunki kształcenia</h3>
+            <p>
+              Oferujemy naukę na kierunkach: technik elektryk, technik elektronik, technik mechatronik, technik informatyk. Programy nauczania są dostosowane do wymagań rynku pracy i nowoczesnych technologii.
+            </p>
+          </div>
+          <div class="card">
+            <img src="assets/uczniowie_projekt.jpg" alt="Uczniowie pracujący nad projektem technicznym">
+            <h3>Projekty uczniowskie</h3>
+            <p>
+              Uczniowie realizują praktyczne projekty z zakresu automatyki, inteligentnych instalacji, programowania mikrokontrolerów czy robotyki. Efekty ich pracy prezentowane są na konkursach i wystawach.
+            </p>
+          </div>
+          <div class="card">
+            <img src="assets/praktyki_staze.jpg" alt="Uczniowie odbywający praktyki">
+            <h3>Praktyki i staże</h3>
+            <p>
+              Współpracujemy z firmami branży elektronicznej i IT, umożliwiając naszym uczniom zdobycie cennego doświadczenia zawodowego podczas praktyk i staży.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dlaczego" class="section fade-in">
+      <div class="container grid-2">
+        <div>
+          <h2>Dlaczego warto do nas dołączyć?</h2>
+          <ul class="reasons-list">
+            <li>💡 Nowoczesna baza dydaktyczna i laboratoria</li>
+            <li>🤝 Współpraca z przedsiębiorstwami i uczelniami</li>
+            <li>🚀 Praktyczne zajęcia i projekty zespołowe</li>
+            <li>🌍 Udział w programach międzynarodowych</li>
+            <li>📈 Wysokie wyniki egzaminów zawodowych</li>
+            <li>🎓 Świetne perspektywy na rynku pracy i studia</li>
+          </ul>
+        </div>
+        <div class="img-card">
+          <img src="assets/nowoczesne_technologie.jpg" alt="Uczniowie korzystający z nowoczesnych technologii">
+        </div>
+      </div>
+    </section>
+
+    <section id="rekrutacja" class="section fade-in">
+      <div class="container grid-2">
+        <div>
+          <h2>Jak dołączyć?</h2>
+          <p>
+            Rekrutacja do ZSEL1 odbywa się corocznie przez system elektroniczny. <br>
+            <strong>Terminy składania dokumentów:</strong> <br>
+            - Czerwiec: rejestracja online i składanie wniosków<br>
+            - Lipiec: ogłoszenie wyników<br>
+            <br>
+            <strong>Kontakt:</strong><br>
+            ul. Kamieńskiego 49, 30-644 Kraków<br>
+            tel. (12) 65 88 100<br>
+            e-mail: sekretariat@zsel1.pl
+          </p>
+        </div>
+        <form class="contact-form" autocomplete="off">
+          <h3>Napisz do nas!</h3>
+          <label for="name">Imię i nazwisko</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Wiadomość</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="cta-btn">Wyślij</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Zespół Szkół Elektrycznych nr 1 w Krakowie. Projekt: nowoczesny motyw.</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
